@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    body{
+      height:1000vh;
+      margin:50px;
+    }
+    span{
+      background-color: tomato;
+    }
+    span:nth-child(even) {
+      background-color: teal;
+    }
+  </style>
+  </head>
+<body>
+  <span>hello</span>
+  <span>hello</span> 
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+  <span>hello</span>
+</body>
+</html>
