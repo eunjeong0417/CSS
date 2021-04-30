@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      transform: rotateY(35deg)
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      transform: rotateY(85deg) rotateX(20deg);
+    }
+  </style>
+  </head>
+  
+  
+  
+  
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      transform: scaleX(4);
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      transform: rotateY(85deg) rotateX(20deg)
+      rotateZ(10deg);
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
