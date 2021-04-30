@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    body{
+      height:1000vh;
+      margin:50px;
+    }
+    span{
+      color:tomato;
+      background-color: yellowgreen;
+      margin:0 10px;
+      padding:5px;
+      border-radius: 10px;
+    }
+    button:active{
+      background-color: tomato;
+    }
+  </style>
+  </head>
+<body>
+  <div>
+      <button>Hello</button>
+  </div>
+</body>
+</html>
