@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    @keyframes eunjeong{
+      from{
+        transform:rotateX(0);
+      }
+      to{
+        transform:rotateX(360deg);
+      }
+    }
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      animation: eunjeong 5s ease-in-out;
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    @keyframes eunjeong{
+      from{
+        transform:rotateY(0);
+      }
+      to{
+        transform:rotateY(360deg);
+      }
+    }
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      animation: eunjeong 5s ease-in-out;
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
