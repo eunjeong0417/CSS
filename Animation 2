@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My first website.</title>
+  <style>
+    @keyframes eunjeong{
+      0%{
+        transform:rotateY(0);
+      }
+      50%{
+        transform:rotateY(180deg) translateY(-100px);
+      }
+      100%{
+        transform:rotateY(0);
+      }
+    }
+    img{
+      widh:1000px;
+      height: 500px;
+      border:5px solid black;
+      border-radius: 50%;
+      animation: eunjeong 5s ease-in-out infinite;
+    }
+  </style>
+  </head>
+<body>
+  <img src="coding.jpg" />
+</body>
+</html>
