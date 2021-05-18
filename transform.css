@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interactive Web</title>
+    <style>
+      .box-container {
+        display: flex;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(255, 255, 0, 0.7);
+        border: 2px solid black;
+      }
+
+      .box:hover {
+        /*width: 200px;
+  			height: 200px;*/
+        /*transform: scale(2) rotate(15deg);*/
+        transform:skew(45deg);
+        /*transform:skewY(45deg);
+        transform: translate(30px,10px);
+        transform:translateX(30px);
+        transform:translateY(-30px);
+        transform: scale(1.5);
+        transform-origin: left top;
+        transform-origin: right bottom;
+        transform-origin: 0% 0%;
+        transform-origin: 100% 100%;
+        transform: rotate(50deg);*/
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Transform</h1>
+    <div class="box-container">
+      <div class="box">A</div>
+      <div class="box">B</div>
+      <div class="box">C</div>
+      <div class="box">D</div>
+      <div class="box">E</div>
+    </div>
+  </body>
+</html>
