@@ -41,3 +41,51 @@
 
 </body>
 </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Web</title>
+    <style>
+      .world {
+        display:flex;
+        justify-content: center;
+        align-items: center ;
+        width:80vw;
+        height:80vh;
+        background-color: #fff000;
+        perspective: 500px;
+      }
+
+
+      .card {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        width:100px;
+        height:150px;
+        margin:1rem;
+        border-radius:0.5em;
+        font-size:1.5rem;       
+        background-color:yellowgreen;
+        transform: rotateY(45deg);
+      }
+
+    </style>
+</head>
+<body>
+  <div class="world">
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>
+    <div class="card">CARD</div>   
+  </div>
+
+</body>
+</html>
